@@ -1,0 +1,13 @@
+.card {
+  padding: 1rem;
+  border: 1px solid $color-gray-100;
+
+  &-title {
+    color: $color-dark-100;
+    font-size: $fs-6;
+  }
+
+  &-text {
+    color: $color-dark-100;
+  }
+}

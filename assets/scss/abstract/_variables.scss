@@ -1,0 +1,58 @@
+//colors
+$color-primary: #00FFA3;
+$color-gray: #D1D1D1;
+$color-gray-100: #E3E3E3;
+$color-light: #fff;
+$color-dark: #000;
+$color-dark-100: #15161D;
+
+$theme-colors: (
+  primary:   $color-primary,
+  gray:      $color-gray,
+  gray-100:  $color-gray-100,
+  light:     $color-light,
+  dark:      $color-dark,
+  dark-100:  $color-dark-100,
+);
+
+//font-size
+$fs-base: 1rem;          //16px
+$fs-1: $fs-base * 8;     //128px
+$fs-2: $fs-base * 4;     //64px
+$fs-3: $fs-base * 2.5;   //40px
+$fs-4: $fs-base * 2;     //32px
+$fs-5: $fs-base * 1.5;   //24px
+$fs-6: $fs-base * 1.25;  //20px
+
+// font-family
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+$font-family-base: "Bruno Ace SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+//font-weight
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+//light-height
+$lh-sm: 1.25;
+$lh-base: 1.5;
+$lh-lg: 2;
+
+// transition
+$transition-base: all 250ms ease;
+
+//grid
+$gutter-width: 24px;
+$grid-sum: 12;
+$grid-breakpoints: (
+  '': false,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+  'xxl': 1400px,
+);
+
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="../assets/images/people.png" alt="willam 圖片">
+          </div>
+          <div class="col-6 banner__text">
+            <h1 class="banner__title">
+              Hi <br> I’m a front-end developer
+            </h1>
+            <h2 class="banner__secTitle">William</h2>
+            <a href="" class="btn btn-light ms-auto">
+              <span class="me-1">contact me</span>
+              <img src="../assets/images/arrow_outward.png" alt="arrow-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="intro bg-cover">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-5">
+            <p class="intro__text mb-8">
+              Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
+            <img class="me-4" src="../assets/images/sparkle-sm.png" alt="sparkle-sm-img">
+            <img class="me-4" src="../assets/images/sparkle-sm.png" alt="sparkle-sm-img">
+            <img class="me-4" src="../assets/images/sparkle-sm.png" alt="sparkle-sm-img">
+          </div>
+          <div class="col-2">
+            <img src="../assets/images/sparkle.png" alt="sparkle-img">
+          </div>
+          <div class="col-2">
+            <img src="../assets/images/photographer.png" alt="">
+          </div>
+          <div class="col-3">
+            <img src="../assets/images/people-2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-6">
+            <div class="row">
+              <div class="col-6 mb-6">
+                <div class="card">
+                  <p class="card-title">01</p>
+                  <h4 class="card-title">Attention to Detail</h4>
+                  <div class="card-text">Meticulous code analysis and optimization.</div>
+                </div>
+              </div>
+              <div class="col-6 mb-6">
+                <div class="card">
+                  <p class="card-title">02</p>
+                  <h4 class="card-title">Adaptability</h4>
+                  <div class="card-text">Swift learning of new technologies.</div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card">
+                  <p class="card-title">03</p>
+                  <h4 class="card-title">Problem Solver</h4>
+                  <div class="card-text">Identifying and resolving issues.</div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card">
+                  <p class="card-title">04</p>
+                  <h4 class="card-title">Team Player</h4>
+                  <div class="card-text">Collaborates and shares ideas.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <h3 class="about__title mb-9">About Me</h3>
+            <p class="about__text">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact bg-linear">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-7">
+            <h3 class="contact__text">
+              <span class="me-3">CONTACT ME</span>
+              <img src="../assets/images/trending_flat.png" alt="arrow-right-icon">
+            </h3>
+          </div>
+          <div class="col-5">
+            <ul class="contact__links">
+              <li class="me-5">
+                <a href="#" class="link">
+                <img src="../assets/images/discord.png" alt="discord-icon">
+                </a>
+              </li>
+              <li class="me-5">
+                <a href="#" class="link">
+                <img src="../assets/images/instagram.png" alt="instagram-icon">
+                </a>
+              </li>
+              <li>
+                <a href="#" class="link">
+                <img src="../assets/images/message.png" alt="message-icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-7 ms-auto">
+            <h3 class="project__title">
+              My Projects
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4"><img src="../assets/images/Rectangle 10.png" alt="project-1-img"></div>
+          <div class="col-8">
+            <div class="project__text mb-7">
+              <img class="me-4" src="../assets/images/Rectangle 15.png" alt="project-2-img">
+              <div class="content">
+                <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
+                <a href="#" class="btn btn-dark text-light">
+                  <span>SEE MORE</span>
+                  <img src="../assets/images/arrow_outward-white.png" alt="arrow-right-icon">
+                </a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <img src="../assets/images/Rectangle 14.png" alt="project-3-img">
+              <img src="../assets/images/Rectangle 29.png" alt="project-4-img">
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

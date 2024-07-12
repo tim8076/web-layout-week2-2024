@@ -1,0 +1,17 @@
+.header{
+  background-color: $color-dark;
+  padding-top: 2.5rem;
+  
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav .nav-link {
+    color: $color-light;
+    transition: $transition-base;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

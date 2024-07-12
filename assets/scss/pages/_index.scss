@@ -1,0 +1,77 @@
+.banner {
+  background-color: $color-dark;
+  padding: 4.5rem 0;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: $fs-3;
+    color: $color-light;
+  }
+
+  &__secTitle {
+    font-size: $fs-1;
+    color: $color-primary;
+    text-align: right;
+  }
+}
+
+.intro {
+  padding: 10rem 0;
+  background-image: url('../images/background-img.png');
+
+  &__text {
+    font-size: $fs-5;
+    color: $color-light;
+  }
+}
+
+.about {
+  padding: 10rem 0;
+
+  &__title {
+    font-size: $fs-2;
+  }
+
+  &__text {
+    font-size: $fs-5;
+  }
+}
+
+.contact {
+  padding: 6rem 0;
+
+  &__text {
+    display: flex;
+    align-items: center;
+    font-size: $fs-2;
+    color: $color-light;
+  }
+
+  &__links {
+    display: flex;
+  }
+}
+
+.project {
+  padding: 10rem 0;
+
+  &__title {
+    font-size: $fs-2;
+  }
+
+  &__text {
+    display: flex;
+  }
+
+  &__text .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
