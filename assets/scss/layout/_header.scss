@@ -1,10 +1,11 @@
 .header{
   background-color: $color-dark;
-  padding-top: 2.5rem;
+  padding: 2.5rem 0;
   
   &__nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__nav .nav-link {

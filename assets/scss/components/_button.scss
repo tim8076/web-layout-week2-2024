@@ -7,6 +7,7 @@
   border-radius: 2rem;
   background-color: $bg-color;
   font-size: 1rem;
+  transition: all 250ms ease-in-out;
 }
 
 .btn {
@@ -16,12 +17,10 @@
 @each $key, $val in $theme-colors {
   .btn-#{$key} {
     @include btn($val);
-
     &:hover {
       background-color: lighten($val, 5);
     }
   }
-
   .btn-outline-#{$key} {
     @include btn(#fff);
     border: 1px solid $val;
@@ -30,4 +29,19 @@
       background-color: $val;
     }
   }
+}
+
+.btn img {
+  transition: all 250ms ease-in-out;
+}
+.btn:hover img {
+  transform: translate( 10%, -10%);
+}
+
+.btn-light:hover {
+  background-color: $color-gray-100;
+}
+
+.btn-dark:hover {
+  background-color: $color-gray;
 }
