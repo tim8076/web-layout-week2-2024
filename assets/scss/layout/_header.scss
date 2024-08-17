@@ -1,7 +1,7 @@
-.header{
+.header {
   background-color: $color-dark;
   padding: 2.5rem 0;
-  
+
   &__nav {
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,7 @@
   }
 
   &__nav .nav-link {
+    opacity: 0;
     color: $color-light;
     transition: $transition-base;
     &:hover {
